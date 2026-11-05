@@ -207,7 +207,6 @@ Photos are processed on localhost without a public Gradio sharing link. Temporar
 
 ## Acknowledgments and license
 
-The project direction was inspired by [Archit's EE604 Course Project](https://github.com/architk22/EE604-Course-Project). This is a standalone remake with its own interface, local training pipeline, tests, and documented experiment. It does not claim to invent YOLO, DeepFill, or Telea inpainting.
 
 Technical foundations: [Ultralytics YOLOv8](https://docs.ultralytics.com/models/yolov8/), [Free-Form Image Inpainting with Gated Convolution](https://arxiv.org/abs/1806.03589), [Generative Image Inpainting with Contextual Attention](https://arxiv.org/abs/1801.07892), [OpenCV inpainting](https://docs.opencv.org/4.x/df/d3d/tutorial_py_inpainting.html), and the [ACNE04 authors' repository](https://github.com/xpwu95/LDL).
 
