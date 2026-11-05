@@ -1,0 +1,29 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements.txt
+      - name: Check syntax
+        run: python -m compileall -q acne_demo demo.py train.py evaluate.py download_assets.py prepare_dataset.py training_job.py
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v

@@ -1,0 +1,37 @@
+{
+  "architecture": "YOLOv8s",
+  "task": "single-class lesion detection",
+  "class_names": [
+    "pimple"
+  ],
+  "initialization": "COCO-pretrained yolov8s.pt",
+  "checkpoint": "models/acne.pt",
+  "sha256": "f79c1244b886c9655ae3ed78e1dae2a1f17390141f73e3db9dee83d33de8f0bc",
+  "file_size_bytes": 22505066,
+  "epochs_completed": 53,
+  "target_epochs": 60,
+  "best_epoch": 38,
+  "stopping_reason": "15 epochs without validation fitness improvement",
+  "status": "training complete",
+  "dataset": "ACNE04",
+  "split_manifest": "reports/split_manifest.json",
+  "seed": 42,
+  "training_device": "NVIDIA GeForce RTX 3050 Laptop GPU (6 GB)",
+  "system_memory_gb": 16,
+  "training_image_size": 640,
+  "batch_size": 8,
+  "workers": 0,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "mixed_precision": true,
+  "deepfill_trained_locally": false,
+  "test_metrics": {
+    "images": 143,
+    "lesions": 1859,
+    "precision": 0.4697464117986674,
+    "recall": 0.46129196693240676,
+    "map50": 0.3859525566768603,
+    "map50_95": 0.09908072116452175
+  },
+  "packaging_note": "Only checkpoint path/git metadata was sanitized; model tensors are unchanged."
+}

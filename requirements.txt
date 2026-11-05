@@ -1,0 +1,12 @@
+# Install CUDA-enabled torch/torchvision first; see setup.ps1.
+torch==2.7.1
+torchvision==0.22.1
+ultralytics==8.3.228
+gradio==5.49.1
+opencv-python==4.12.0.88
+numpy==2.2.6
+Pillow==11.3.0
+PyYAML==6.0.3
+gdown==5.2.0
+matplotlib==3.11.2
+psutil==7.2.2

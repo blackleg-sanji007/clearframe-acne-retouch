@@ -1,0 +1,13 @@
+{
+  "checkpoint": "models/acne.pt",
+  "sha256": "f79c1244b886c9655ae3ed78e1dae2a1f17390141f73e3db9dee83d33de8f0bc",
+  "split": "test",
+  "images": 143,
+  "lesions": 1859,
+  "precision": 0.4697464117986674,
+  "recall": 0.46129196693240676,
+  "map50": 0.3859525566768603,
+  "map50_95": 0.09908072116452175,
+  "best_epoch": 38,
+  "selection": "validation fitness only"
+}

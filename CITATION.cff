@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use Clearframe, cite this software and the underlying works listed in THIRD_PARTY_NOTICES.md."
+type: software
+title: "Clearframe: Local Acne Detection and Selective Photo Retouching"
+authors:
+  - name: "Clearframe contributors"
+repository-code: "https://github.com/blackleg-sanji007/clearframe-acne-retouch"
+url: "https://github.com/blackleg-sanji007/clearframe-acne-retouch"
+license: AGPL-3.0-only
+keywords:
+  - acne-detection
+  - image-inpainting
+  - yolov8
+  - deepfillv2
+  - computer-vision

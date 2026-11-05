@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.pt -text
+*.png -text
+*.jpg -text
