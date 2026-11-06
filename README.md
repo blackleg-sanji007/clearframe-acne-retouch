@@ -1,4 +1,4 @@
-# Clearframe
+# EE604 Project
 
 ### Local acne detection and selective photo retouching
 
